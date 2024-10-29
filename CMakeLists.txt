@@ -15,6 +15,7 @@ endmacro(use_cxx11)
 
 #set(CMAKE_CXX_STANDARD 11)
 use_cxx11()
+include_directories(/home/mkhalaji/repos/stx-btree/out/include/)
 include_directories(include)
 include_directories(misc)
 
